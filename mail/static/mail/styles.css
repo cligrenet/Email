@@ -1,0 +1,37 @@
+:root {
+	--prim-blue: #007bff;
+}
+
+textarea {
+	min-height: 400px;
+}
+
+.email_row {
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	padding: 5px;
+	margin-bottom: 3px;
+}
+
+.email_row:hover {
+	cursor: pointer;
+}
+
+.email_row a:link {
+	text-decoration: none;
+}
+
+.email_row_sender {
+	font-weight: bold;
+	padding-right: 5px;
+}
+
+.email_row_timestamp {
+	float: right;
+	color: gray;
+	font-size: 14px;
+}
+
+/* #post-textarea {
+	display: none;
+} */
